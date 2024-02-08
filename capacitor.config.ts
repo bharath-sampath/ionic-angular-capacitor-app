@@ -5,8 +5,11 @@ const config: CapacitorConfig = {
   appName: 'Ionic-Angular-Capacitor-App',
   webDir: 'www',
   server: {
-    androidScheme: 'https'
-  }
+    url: 'https://ionic-angular-capacitor-app.vercel.app/',
+    allowNavigation: [
+      'ionic-angular-capacitor-app.vercel.app'
+    ],
+  },
 };
 
 export default config;
